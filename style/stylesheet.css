@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+div {
+    display: flex;
+    
+}
+
+h1 {
+    font-family: "Geomanist Book",sans-serif;
+    font-size: 50px;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.name {
+    margin-bottom: 0px;
+}
+
+.lastname{
+    color: rgb(253, 158, 22);
+    margin-top: 0px;
+}
+
+.left {
+    width: 30%;
+    min-width: 250px;
+    height: 230px;
+    justify-content:center;
+    align-items: flex-end;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.cont-photo {
+    background: rgb(240, 240, 240);
+    height: 410px;
+    align-items: center;
+}
+
+
+
+.photo-in {
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+.cont-title-info {
+    background: rgb(245, 245, 245);
+    display: block;
+    padding: 50px 20px 40px 40px;
+}
+ 
+
+.right {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.my-name {
+    display: block;
+    width: inherit;
+    height: 70%;
+    border-bottom:2px solid rgb(206, 206, 209);
+}
+
+.info {
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: inherit;
+    height:30%;
+}
+
+.info-lil {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: block;
+    width: 100%;
+}
+
+.left-cont-expert {
+    background: rgb(238, 237, 237);
+    
+}
+
+.right-cont-expert {
+    background: rgb(245, 245, 245);
+    flex-flow:row wrap;
+}
+
+.content-in {
+    flex-basis: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.right-in {
+    display: block;
+}
+
+.content-in-in {
+    display: block;
+}
+
+.num {
+    color: rgb(253, 158, 22);
+    padding: 0px 10px;
+}
+
+.left-cont-intro {
+    background: rgb(228, 228, 228);
+}
+
+.right-cont-intro {
+    background: rgb(240, 240, 240);
+}
+
+.left-cont-skill {
+    background: rgb(228, 228, 228);
+  
+}
+
+.right-cont-skill{
+    background: rgb(240, 240, 240);
+    flex-flow:row wrap;
+}
