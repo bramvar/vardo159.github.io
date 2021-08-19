@@ -8,7 +8,10 @@ html {
 
 div {
     display: flex;
-    
+}
+
+p {
+    padding: 5px 5px;
 }
 
 h1 {
@@ -32,7 +35,7 @@ h1 {
 .left {
     width: 30%;
     min-width: 250px;
-    height: 230px;
+   
     justify-content:center;
     align-items: flex-end;
     padding-right: 20px;
@@ -108,7 +111,6 @@ h1 {
 .content-in {
     flex-basis: 50%;
     width: 100px;
-    height: 100px;
 }
 
 .right-in {
@@ -140,4 +142,16 @@ h1 {
 .right-cont-skill{
     background: rgb(240, 240, 240);
     flex-flow:row wrap;
+}
+
+.porc-cont {
+    display: block;
+    padding: 0px 10px;
+    background: rgb(133, 133, 133);
+}
+
+.porc {
+    background: rgb(253, 158, 22);
+    height: 3px;
+    width: 80%;
 }
